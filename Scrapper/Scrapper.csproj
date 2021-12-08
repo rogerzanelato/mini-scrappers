@@ -6,4 +6,17 @@
         <RootNamespace>Scrapper</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Update="input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AngleSharp" Version="1.0.0-alpha-844" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="results" />
+    </ItemGroup>
 </Project>

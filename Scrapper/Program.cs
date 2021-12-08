@@ -1,60 +1,53 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using AngleSharp;
+using static Scrapper.ScrapperHelper;
 
-Console.WriteLine("Hello World!");
-
-var links = new []
+var links = await File.ReadAllLinesAsync("input.txt");
+if (!links.Any())
 {
-    "https://polterglast.blogspot.com/2021/05/proofread-ootdc-ch1-p1.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-2.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-3.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-4.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-5.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-6.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-7.html",
-    "https://polterglast.blogspot.com/2021/03/dragon-chain-ori-ch-1-part-8.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-1.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-10.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-11.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-2.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-3.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-4.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-5.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-6.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-7.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-8.html",
-    "https://polterglast.blogspot.com/2021/04/dragon-chain-ori-ch-2-part-9.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-2-part-12.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-2-part-13.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-1.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-2.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-3.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-4.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-5.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-6.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-3-part-7.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-4-part-1.html",
-    "https://polterglast.blogspot.com/2021/05/dragon-chain-ori-ch-4-part-2.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-10.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-11.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-12.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-13.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-3.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-4.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-5.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-6.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-7.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-8.html",
-    "https://polterglast.blogspot.com/2021/06/dragon-chain-ori-ch-4-part-9.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-14.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-15.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-16.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-17.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-18.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-19.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-20.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-21.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-4-part-22.html",
-    "https://polterglast.blogspot.com/2021/07/dragon-chain-ori-ch-5-part-1.html",
-    "https://polterglast.blogspot.com/2021/08/dragon-chain-ori-ch-5-part-2.html",
-    "https://polterglast.blogspot.com/2021/08/dragon-chain-ori-ch-5-part-3.html"
-};
+    Console.WriteLine("Nenhum link para scrapping foi encontrado.");
+    return;
+}
+
+Console.WriteLine($"Iniciando scrapping de {links.Length} links");
+var stopwatcher = Stopwatch.StartNew();
+
+await ExecuteAsync(links);
+
+stopwatcher.Stop();
+Console.WriteLine($"Scrapping finalizado em {stopwatcher.ElapsedMilliseconds}ms");
+
+static async Task ExecuteAsync(IEnumerable<string> links)
+{
+    var context = CriarBrowsingContext();
+    var scrappingTasks = links.Select(async link => await ExecutarScrapping(context, link));
+    await Task.WhenAll(scrappingTasks);
+}
+
+static async Task ExecutarScrapping(IBrowsingContext browsingContext, string link)
+{
+    var document = await browsingContext.OpenAsync(link);
+
+    var titulo = ExtrairTitulo(document);
+    var conteudo = ExtrairConteudoSanitizado(document);
+
+    await SalvarArquivoAsync(titulo, conteudo);
+}
+
+static async Task SalvarArquivoAsync(string titulo, string conteudo)
+{
+    const string resultFolderPath = @"C:\Users\roger.zanelato\RiderProjects\PolterGlastScrapper\Scrapper\results";
+
+    var invalids = Path.GetInvalidFileNameChars();
+    var tituloSanitizado = string
+        .Join("", titulo.Split(invalids, StringSplitOptions.RemoveEmptyEntries))
+        .Replace("  ", " ")
+        .TrimEnd('.');
+
+    await File.WriteAllTextAsync($"{resultFolderPath}\\{tituloSanitizado}.html", conteudo);
+}

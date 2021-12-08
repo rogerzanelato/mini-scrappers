@@ -1,0 +1,201 @@
+[
+  {
+    "id": "5be7ef2a-d99d-409a-be7f-2c3b61784aaa",
+    "link": "https://www.ambev.com.br/marcas/cervejas/adriatica",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_adriatica.jpg",
+    "nome": "Adriática"
+  },
+  {
+    "id": "9d71bbea-ee78-4f0f-9c90-80441532383d",
+    "link": "https://www.ambev.com.br/marcas/cervejas/andes",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/04/andes_logo.jpg",
+    "nome": "Andes"
+  },
+  {
+    "id": "f1dd003b-3336-4bf2-8152-65762aea2568",
+    "link": "https://www.ambev.com.br/marcas/cervejas/antarctica",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_antarctica.jpg",
+    "nome": "Antarctica"
+  },
+  {
+    "id": "6ebe9a50-8b05-467e-9b4d-020295f84403",
+    "link": "https://www.ambev.com.br/marcas/cervejas/becks",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_becks.jpg",
+    "nome": "Beck's"
+  },
+  {
+    "id": "185ccfed-b2e8-48b3-914c-6a3f3f67da24",
+    "link": "https://www.ambev.com.br/marcas/cervejas/berrio-do-piaui",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/01/logo.jpg",
+    "nome": "Berrió do Piauí"
+  },
+  {
+    "id": "e3d4af30-c0fa-4370-80e8-f2703c1c9492",
+    "link": "https://www.ambev.com.br/marcas/cervejas/bohemia",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_bohemia_novo.jpg",
+    "nome": "Bohemia"
+  },
+  {
+    "id": "c4e59983-cd10-4d58-97d1-5b4a625d27aa",
+    "link": "https://www.ambev.com.br/marcas/cervejas/brahma",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_brahma.jpg",
+    "nome": "Brahma"
+  },
+  {
+    "id": "0facc890-0e6c-4bf3-9126-973231499c60",
+    "link": "https://www.ambev.com.br/marcas/cervejas/budweiser",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_bud.jpg",
+    "nome": "Budweiser"
+  },
+  {
+    "id": "ec3056e4-cc55-4ec2-9c25-a387b843b6b2",
+    "link": "https://www.ambev.com.br/marcas/cervejas/caracu",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_caracu.jpg",
+    "nome": "Caracu"
+  },
+  {
+    "id": "a08c5bd6-dc8d-4322-8e51-c6ae04b7933c",
+    "link": "https://www.ambev.com.br/marcas/cervejas/cervejaria-colorado",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_colorado.jpg",
+    "nome": "Cervejaria Colorado"
+  },
+  {
+    "id": "aa82fbb2-8a14-465b-a161-5e10dd6febb2",
+    "link": "https://www.ambev.com.br/marcas/cervejas/corona",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_corona.jpg",
+    "nome": "Corona"
+  },
+  {
+    "id": "56dfbe96-67fb-4845-86ef-3890ab1a000a",
+    "link": "https://www.ambev.com.br/marcas/cervejas/esmera-de-goias",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/01/logo-esmera.png",
+    "nome": "Esmera de Goiás"
+  },
+  {
+    "id": "18c2a4aa-4742-4e4e-993c-e6a42838b868",
+    "link": "https://www.ambev.com.br/marcas/cervejas/franziskaner",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_franziskaner.jpg",
+    "nome": "Franziskaner"
+  },
+  {
+    "id": "e7da6bb7-665b-46c3-ab02-558dbc8848f1",
+    "link": "https://www.ambev.com.br/marcas/cervejas/goose-island",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_goose-island.jpg",
+    "nome": "Goose Island"
+  },
+  {
+    "id": "76f3ddba-3c8c-4cbc-9095-0d9fcd094519",
+    "link": "https://www.ambev.com.br/marcas/cervejas/hoegaarden",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_hoegaarden.jpg",
+    "nome": "Hoegaarden"
+  },
+  {
+    "id": "1542965c-7767-4baa-b018-ce9e2158acaf",
+    "link": "https://www.ambev.com.br/marcas/cervejas/kona",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/04/kona_logoo.jpg",
+    "nome": "Kona"
+  },
+  {
+    "id": "da96dbd2-dca3-44b5-a039-e89f0e787f8b",
+    "link": "https://www.ambev.com.br/marcas/cervejas/leffe",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_leffe.jpg",
+    "nome": "Leffe"
+  },
+  {
+    "id": "be996bd8-3052-42b1-8ec5-892fcaf68527",
+    "link": "https://www.ambev.com.br/marcas/cervejas/legitima",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/11/logo_legitima.jpg",
+    "nome": "Legítima"
+  },
+  {
+    "id": "01090b9a-c732-4d42-9080-81f557449c02",
+    "link": "https://www.ambev.com.br/marcas/cervejas/magnifica-do-maranhao",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_magnifica-1.jpg",
+    "nome": "Magnífica do Maranhão"
+  },
+  {
+    "id": "a4c88062-2d4f-4330-bb56-b62691d37242",
+    "link": "https://www.ambev.com.br/marcas/cervejas/michelob-ultra",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/04/michelob_logo.jpg",
+    "nome": "Michelob Ultra"
+  },
+  {
+    "id": "f3211504-6faa-4d83-b473-000707097616",
+    "link": "https://www.ambev.com.br/marcas/cervejas/modelo",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/04/modelo_logo.jpg",
+    "nome": "Modelo"
+  },
+  {
+    "id": "716f8dfd-65f4-4fe5-9259-fb37923dd70a",
+    "link": "https://www.ambev.com.br/marcas/cervejas/nortena",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_nortena.jpg",
+    "nome": "Norteña"
+  },
+  {
+    "id": "a91a5351-70ef-44a0-8191-65ba5837edb2",
+    "link": "https://www.ambev.com.br/marcas/cervejas/nossa",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_nossa.jpg",
+    "nome": "Nossa"
+  },
+  {
+    "id": "00e41e92-fffc-45fe-ad19-623fab836854",
+    "link": "https://www.ambev.com.br/marcas/cervejas/original",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_original.jpg",
+    "nome": "Original"
+  },
+  {
+    "id": "3bffe036-edd9-4eea-a1bc-10f1d58f5704",
+    "link": "https://www.ambev.com.br/marcas/cervejas/patagonia",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_patagonia.jpg",
+    "nome": "Patagonia"
+  },
+  {
+    "id": "970861ee-af61-4483-8af6-d8508bfb6b6a",
+    "link": "https://www.ambev.com.br/marcas/cervejas/polar",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_polar-novo.jpg",
+    "nome": "Polar"
+  },
+  {
+    "id": "578e3b94-f8e3-42b5-8f06-e7c14093a5ac",
+    "link": "https://www.ambev.com.br/marcas/cervejas/serramalte",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_serramalte.jpg",
+    "nome": "Serramalte"
+  },
+  {
+    "id": "f99cbdec-1699-406a-9129-7ecbb0957f16",
+    "link": "https://www.ambev.com.br/marcas/cervejas/serrana",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_serrana.jpg",
+    "nome": "Serrana"
+  },
+  {
+    "id": "123fb693-a2cc-4336-8386-90224baa00ac",
+    "link": "https://www.ambev.com.br/marcas/cervejas/skol",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_skol.jpg",
+    "nome": "Skol"
+  },
+  {
+    "id": "ec95827a-0cee-41c8-bc4f-4a9be2bb4156",
+    "link": "https://www.ambev.com.br/marcas/cervejas/spaten",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2021/04/spaten_logo.jpg",
+    "nome": "Spaten"
+  },
+  {
+    "id": "cb54b81f-55ec-4fdb-98b7-245f05879b3d",
+    "link": "https://www.ambev.com.br/marcas/cervejas/stella-artois",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_stella-artois.jpg",
+    "nome": "Stella Artois"
+  },
+  {
+    "id": "f3921eb6-20a8-4978-b2a3-c685af0357b8",
+    "link": "https://www.ambev.com.br/marcas/cervejas/tres-fidalgas",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_tres-fidalgas.jpg",
+    "nome": "Três Fidalgas"
+  },
+  {
+    "id": "1a405d92-fff8-4400-8477-b5f4d203a91d",
+    "link": "https://www.ambev.com.br/marcas/cervejas/wals",
+    "logoImg": "https://www.ambev.com.br/conteudo/uploads/2019/03/logo_wals.jpg",
+    "nome": "Wäls"
+  }
+]
+
